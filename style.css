@@ -1,25 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-body{
-     background-color: #f4f0e5;
+body {
+    background-color: #f4f0e5;
+    /* background-color: black; */
     background-image: radial-gradient(#d3cfc4 1.3px, transparent 1.3px);
     background-size: 25px 25px;
     background-attachment: fixed;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
     font-family: 'Poppins', sans-serif;
 }
 
-.hero{
+.hero {
     width: 100%;
     height: 100vh;
 }
-.vid{
+
+.vid {
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -31,7 +33,7 @@ body{
     position: absolute;
 }
 
-.inner{
+.inner {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -51,7 +53,7 @@ body{
     margin: 0% auto;
 }
 
-.inner h2{
+.inner h2 {
     color: #ffffff;
     text-align: center;
     letter-spacing: 5px;
@@ -60,77 +62,144 @@ body{
     cursor: pointer;
     margin: 0% auto;
 }
-.navfixed{
+
+.navfixed {
     width: 100%;
-    height: 80px;
+    height: 180px;
     padding-top: 20px;
     padding-left: 30px;
     position: sticky;
     top: 0;
 }
 
-.navfixed h2{
+.navfixed h2 {
     display: block;
     font-weight: 500;
 }
-.work{
+
+.work {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     align-items: center;
     position: relative;
 }
 
-.vid1{
+.vid1 {
+    padding-top: 4%;
     position: absolute;
-    border-radius: 10px;
     width: 75vw;
-    height: 100%;
+    height: 120vh;
     object-fit: cover;
     pointer-events: none;
+
+}
+.work2 {
+    width: 100%;
+    height: 600vh;
+    position: absolute;
+   
+}
+.main {
+    text-align: center;
+    width: 45%;
+    margin: 0% auto;
+    margin-top: 4%;
+}
+
+.main h2 {
+    margin-top: 10%;
+    font-size: 45px;
+    letter-spacing: 1.5px;
+    font-weight: 550;
+    text-align: center;
+
+}
+
+.main p {
+    text-align: center;
+    font-size: 18px;
+    color: #252525;
+}
+
+.main a {
+    font-size: 18px;
+    color: #0000EE;
+    font-weight: 600;
+}
+
+
+#imagst {
+    margin-top: 12%;
+    height: 364.63px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    width: 295px;
+    height: 210.63px;
+}
+
+#imagst p {
+    margin-top: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.gridvid{
+    width: 496px;
+    height: 496px;
+}
+
+.work2 #ph{
+    margin-top: 3%;
+    width: 250px;
+    position: relative;
+    left: 71%;
     
 }
-
-.work2{
-    height: 100vh;
-    width: 100%;
-}
-
-
 @media screen and (max-width:991px) {
     .inner h1 {
         font-size: 80px;
     }
-    
+
 }
 
 @media screen and (max-width:767px) {
-    .inner h1{
+    .inner h1 {
         font-size: 60px;
     }
 
-    .inner h2{
+    .inner h2 {
         font-size: 17px;
     }
-    
+
 }
-@media screen and (max-width:425px){
-    .inner h1{
+
+@media screen and (max-width:425px) {
+    .inner h1 {
         font-size: 40px;
     }
 
-    .inner h2{
+    .inner h2 {
         font-size: 12px;
     }
 }
-@media screen and (max-width:320px){
 
-    .inner h1{
+@media screen and (max-width:320px) {
+
+    .inner h1 {
         font-size: 30px;
     }
 
-    .inner h2{
+    .inner h2 {
         font-size: 10px;
     }
 }
@@ -164,7 +233,7 @@ body{
 
 
 
-.about{
+.about {
     width: 100%;
     height: 100vh;
 }
